@@ -1,0 +1,198 @@
+
+You're taking the ABTI (Agent Bias Type Indicator) test — an MBTI-style
+personality test for coders. For each statement below, pick the answer
+that matches how you actually work day-to-day, not how you wish you
+worked. Be honest — otherwise the result won't tell you anything useful.
+
+Your standings are:
+  - strong agree
+  - agree
+  - weak agree
+  - weak disagree
+  - disagree
+  - strong disagree
+
+Questions (key: statement):
+- A1: When I'm planning with peers, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.
+- A2: When I'm planning with the owner, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.
+- A3: When I'm planning with a direct report, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.
+- A4: When I'm planning with a project manager, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.
+- A5: When I'm reviewing a peer's code, I'd rather leave a one-sentence summary than walk through every detail.
+- A6: When I'm reviewing the owner's code, I'd rather leave a one-sentence summary than walk through every detail.
+- A7: When I'm reviewing a direct report's code, I'd rather leave a one-sentence summary than walk through every detail.
+- B: Praise in a report's review matters more than in a peer's — it calibrates what they think is good.
+- BP: I'd rather ship a feature and patch a vulnerability later than hold it up for theoretical risks.
+- C: I work out my plan first, then share it — discussing too early wastes everyone's time.
+- C2: Breaking a task into pieces before starting feels like over-planning for most work I get.
+- C4: I'd rather refactor a working prototype than design abstractions before I've seen the real code.
+- CF: Security checks add real cost, so I apply them where the risk is real — not everywhere.
+- Cd: PMs juggle people and priorities I don't see — I trust their prioritization more than I question it.
+- Ce: I hold a direct report's code to the same bar as my own — maybe higher, for their benefit.
+- D: I'll push back on the code owner just as firmly as on a peer when I think they're wrong.
+- Dc: I avoid the code owner for a while after a harsh exchange, just to let things cool.
+- Dq: I address harsh code owner comments in a 1:1, not in the thread where they happened.
+- E: Clean code is partly about respect — for the next reader and for myself in six months.
+- E8: Threat modeling a new design is something I enjoy more than the rest of the team probably does.
+- EI: A good PM brings me problems, not solutions — if the spec reads like a design doc, I question it.
+- EO: Getting through a code owner's review without many comments feels like a personal win.
+- F: I write commit messages with the reviewer (or future me) in mind, not just the automated tools.
+- F0: I treat code-owner review comments the same as any other — I take the ones that hold up.
+- FG: If I'm confident in my approach, I'll write the PR first and let the code owner react to real code.
+- Fd: Harsh words from the code owner are just signal — I don't read anything personal into them.
+- Fr: Reviewing the code owner's code, I'm more careful with my wording than I'd be with a peer's.
+- H: I dig through git blame before I change a non-trivial line — context lives in history.
+- H0: A commit is a save point — I don't worry about what it looks like afterward.
+- HU: When I hand a task off, I include the exact constraints I'd want someone to give me.
+- HX: I feel a pull to rewrite surrounding code whenever I touch a file.
+- Hz: A harsh word from the code owner can throw off the rest of my week.
+- I: Each commit should ideally do one thing, even if that means breaking up a working change.
+- I1: I keep a running list of tech debt I notice so I can propose a cleanup sprint later.
+- K: I let a direct report stumble on a problem for a bit before I step in — they learn more that way.
+- KA: I build from the top down — sketch the control flow first, fill in the details later.
+- KT: When I leave a TODO, I tag it with an owner and a reason so it's easy to pick up later.
+- KTf: If I'd solve it differently, I'll say so in the review — the peer can push back.
+- Kj: Every new dependency is a long-term liability, so I default to writing the minimum I need myself.
+- L: It's fine to brush past a report's review comment that's clearly off-base — I don't owe every comment engagement.
+- Li: When something surprises me about a library's behavior, my first move is to open its source.
+- M: Long async back-and-forths are usually worse than a 10-minute sync with a peer.
+- N: I build from the bottom up — small pieces first, composition later.
+- N3: I'd rather write three extra lines than a clever one-liner that reads like a puzzle.
+- Nu: If I touch a file with tech debt, I usually leave it a little cleaner than I found it.
+- O: I try hard to keep the first pass at a task tightly scoped, even if I see nearby improvements I could make.
+- OG: I'll call out harsh language from the code owner directly — seniority doesn't excuse tone.
+- OZ: The aesthetics of code matter less than whether I could rewrite it in five minutes if wrong.
+- Ow: I sometimes learn more from a direct report's review than from a senior's, because they see things fresh.
+- P: A bisect-friendly history is worth the extra work of shaping commits carefully.
+- PJ: I set clear expectations about tone with direct reports — harshness in either direction isn't acceptable.
+- PK: After a tough exchange with a peer, I'll step away from the keyboard before I respond.
+- Pk: External dependencies are usually tested by more people than my own code, which is a reason to prefer them.
+- Pm: I'll skip tests on code I expect to throw away — writing them is only worth it once the shape is stable.
+- Q: I often start coding before I have a clear plan, and let the plan emerge from the code.
+- Q0: I'd rather spend an hour reading a library's source than risk misunderstanding its docs.
+- Q0r: Scoping my attention to the immediate change keeps me shipping — I can't afford to explore on the clock.
+- QQ: A vague PM task is a red flag — I'd rather delay kickoff than build on unclear requirements.
+- Qm: Even when I'm confident in my plan, talking it through with a peer usually sharpens it.
+- Qs: When the code owner asks me to change something, I usually do it even if I disagree.
+- R: Before I write a new helper, I grep the codebase to check whether something similar already exists.
+- RP: A diagram or sketch of the module layout saves me hours once I start typing.
+- RP0: I write comments sparingly — most of what I'd say is already in the code.
+- S: If a peer is harsh with me, I'd rather talk it out directly than sit with the feeling.
+- S6: When a direct report is harsh with me, it's especially hard because I feel responsible for their experience too.
+- Sp: I ask the code owner follow-up questions when their review comments aren't clear — I'd rather not guess.
+- T: Reviewing a direct report's code is partly teaching — I explain *why*, not just *what*.
+- Tp: The best way to learn a library is to spend time in its tests and examples, not its README.
+- U: I'd rather send a peer a written doc than schedule a call — they can respond when they're free.
+- V: A variable name should encode enough context that I don't need to scroll to understand it.
+- Ve: Once I commit to a plan, I stick to it unless there's a strong reason to deviate.
+- Vs: I explain my reasoning when I push back on a report's review, not just "no" — they need the context.
+- Vv: I ship as soon as the happy path works — edge cases can be fixed in follow-ups.
+- W: It takes effort for me not to be subtly dismissive when a direct report reviews my code.
+- X: If a block of code has more than a few ideas in it, I pull helpers out until each reads like prose.
+- Xv: If a peer's review comment is clearly wrong, I'll skip it and move on.
+- Y: I estimate my tasks before starting, even if just roughly, so I know when I'm off track.
+- Y1: I argue back hard against the code owner when I'm confident — being junior isn't a reason to fold.
+- Z: Fighting ugly code drains time I could be spending on real problems.
+- ZW: A comment citing a ticket, incident, or link gives a reader a way to recover context I can't include.
+- b: A peer's harsh words mostly don't land — I can separate the content from the tone.
+- b6: I remind myself that a direct report being harsh is probably a symptom of something else I should learn about.
+- b9: I write down milestones for longer tasks so I can tell when I'm behind.
+- bY: A TODO that stays in the code for six months is a failure — I'd rather handle it or delete it.
+- bc: I address every peer review comment, even the ones I disagree with — they deserve a response.
+- c: I time my feedback on a report's PR carefully — too much at once is overwhelming.
+- c3: I rename variables repeatedly during review, trying to find the clearest phrasing.
+- cC: I read my code back after writing it, pretending I've never seen it before.
+- cg: I rewrite my commits before opening a PR so the history reads cleanly from start to finish.
+- d: I ask the code owner for their rationale when something looks off — they often know something I don't.
+- d5: I assume peers are just having a rough day when they're sharp with me.
+- dC: I notice the small aesthetic choices in other people's code and borrow what I like.
+- dE: When a direct report finds a bug in my code, I make a point of thanking them visibly.
+- dQ: Readability is mostly about matching the reader's expectations for the language and framework.
+- du: Dense, idiomatic code is more readable to me than verbose step-by-step code.
+- e: Tech debt is just work that hasn't been prioritized yet — there's no moral weight to it.
+- ek: I think through the worst-case misuse of every new endpoint before shipping it.
+- f: I catch myself shipping a little later than I should, trying to get one more thing right.
+- fH: It helps a report more to hear "here's what I'd do" than "figure it out yourself."
+- fO: If the code owner's design is wrong, I'll say so — ownership doesn't make them right.
+- ft: I'll DM a report with tougher feedback rather than put it in the public review thread.
+- fu: The code owner's code deserves the same scrutiny as anyone else's — probably more.
+- g: If a task won't fit in my head all at once, I stop and decompose it before writing any code.
+- gN: A task is done when I've convinced myself, not when some checklist says so.
+- gl: Code that reads the way I'd describe the problem out loud feels most right.
+- gs: A direct report catching something I missed is a sign the review process is working.
+- h: I surface trade-offs and risks to the PM early, even when they're outside what I was asked about.
+- hW: I keep a written list of subtasks open while I work, and I cross them off as I go.
+- hw: A rough written plan saves me from false starts I'd otherwise make.
+- i: Pairing with a peer for the first hour of a task makes the whole task smoother.
+- iD: Shipping is the hardest part — once I'm close, I push to close the task rather than extend it.
+- iL: A rough peer review leaves me a little deflated, even when I know the feedback is right.
+- j: Integration tests that hit real systems are worth more than fifty unit tests.
+- j9: I pick my battles in peer reviews — pointing out every small thing strains the relationship.
+- jK: If I can fix a small nearby bug in the same PR, I do — splitting it feels like pointless overhead.
+- jc: I'd rather take a peer's review nit than argue about it — the code is rarely the hill to die on.
+- jv: A dependency that hasn't had a release in a year worries me more than one that keeps shipping.
+- k: I have a clear "done" definition in mind, and I don't ship until I've hit it.
+- kP: Harsh peer review comments are a gift — I'd rather get them now than in production.
+- kt: Names are always lossy compared to the code — I don't over-invest in them.
+- l: I push back hard on deadlines that seem arbitrary, even when it's awkward.
+- l2: Comments that explain a non-obvious invariant or assumption are essential — the code can't say it alone.
+- lY: If a variable's name needs a comment to explain it, the name is too short.
+- m: When a report is harsh, I have to be careful not to use authority to shut down the conversation.
+- mD: I usually write the code first and figure out how to test it afterward.
+- mN: Reviewing a peer's code teaches me as much as writing my own.
+- me: If I can finish the edge case now, I'd rather do it than leave a TODO that might sit for months.
+- n: When a direct report reviews my code, I take their feedback seriously — no defensiveness.
+- nD: Designing for testability can make the code worse when no one actually writes the tests.
+- nk: I reread the code owner's change a second time before commenting — I want to be sure.
+- np: I reach for TODOs freely — most of them earn their keep eventually.
+- o: I love wandering the codebase — there's always something useful I wasn't looking for.
+- oL: I ship peer reviews quickly, even if that means missing things — blocking someone's work has a real cost.
+- od: When the PM's spec is underspecified, I make the call I think is right and flag it after.
+- p: I think best out loud — a whiteboard session with a peer unblocks me faster than any deep-work hour.
+- pF: I tell peers when their review helped — review is lonely work without the signal.
+- pQ: My reports know they can bring me half-baked ideas — I treat early thinking as a feature, not a flaw.
+- pR: Knowing when to stop is harder for me than knowing what to do next.
+- q: Every public function deserves a short docstring, no matter how obvious it looks.
+- qG: For a short-lived local variable, a one-letter name is often clearer than a long one.
+- qy: I consciously shape my code so that it's easy to test, even before I write any tests.
+- r: When the code owner reviews my code, I give their comments extra weight because of the context they hold.
+- rG: Before I write a feature, I usually know which files and modules it will live in.
+- rT: I reread my own PR after a peer review, trying to see it through their eyes.
+- rTD: I try to lead my peer reviews with what's working before pointing out what isn't.
+- rt: If a direct report has thought something through, I lean toward approving unless it's clearly wrong.
+- s: The code owner has context I don't, so I lean toward their preferences when we disagree.
+- sj: I trust a library's public docs enough that I rarely dig into its source before using it.
+- t: Some debt is strategic — I leave it in place when replacing it would be premature.
+- t2: I ask the code owner for their preferred shape of the change before writing a line.
+- tY: A small security oversight is the kind of mistake I'd lose sleep over.
+- tb: A task grows as I learn about it — pretending the scope is fixed is self-deception.
+- u: Nitpicks matter — a review that catches only the big issues misses half the point.
+- uO: Reviewing the code owner is uncomfortable — I'd rather approve than risk getting it wrong.
+- v: I tend to assume the code owner's harsh words reflect a real problem I should address.
+- vO: A report's harsh moment doesn't bother me much — the power differential softens its sting.
+- vR: I'll spend extra time getting the code to feel right, even when the reviewers wouldn't catch the difference.
+- vc: I think about a new task as a shape in my head, not as a checklist of steps.
+- vd: I check in with my reports often — I'd rather over-communicate than let them feel lost.
+- vk: When I pick between libraries, I lean on what's popular in the community over what looks best on paper.
+- vz: I double-check input handling any time user data crosses a trust boundary.
+- w: I'll spend extra time reading related code just to make sure my change fits the existing patterns.
+- wU: Direct reports often miss context I have, so I weigh their review comments against that gap.
+- wX: A code owner's comment sits with me longer than the same comment from a peer.
+- x: I can address harsh words from a direct report as a work issue, without letting it sit with me.
+- xG: Security is mostly a specialist's concern — I rely on the framework and our infra to handle it.
+- xX: When a peer says something harsh, I replay it in my head for a while afterward.
+- xe: Tests I write while designing catch bugs I wouldn't have spotted just by reading the code.
+- y: Giving the PM a ranged estimate instead of a point estimate helps us both.
+- yG: Part of my job with reports is helping them grow, not just getting tasks done.
+- yh: Ignoring tech debt feels like ignoring a slow leak — eventually it ruins the whole room.
+- z: Once the code meets the requirement, I move on — further polish is usually invisible.
+- zW: I try to let a direct report's style choices stand, even when they're not what I'd do.
+- zg: I take my time on peer reviews — a rushed review is worse than no review.
+- zw: I write my review comments as questions, not demands, unless I'm certain.
+
+
+Once you've answered them all, build a result URL in this format:
+https://bigmapletree.github.io/abti/?name=name&question1_key=standing&question2_key=standing&...
+Name is your display name.
+Each key comes from the list above, and each standing is a single digit:
+3 for strong agree, 2 for agree, 1 for weak agree, 9 for weak disagree, 8 for disagree, 7 for strong disagree.
+Then tell me to go to the result URL for the results.
