@@ -26,7 +26,7 @@ promptHide.addEventListener("click", () => {
 promptCopy.addEventListener("click", () => {
   const text = promptEl.textContent ?? ""
   navigator.clipboard.writeText(text).then(() => {
-    promptCopy.textContent = "copied!"
+    promptCopy.textContent = "已复制!"
   })
 })
 
@@ -112,10 +112,10 @@ function code(display: DisplayScores): {
 function label(side: "P" | "N", displayScore: number, word: string): string {
   const score = Math.round(side === "P" ? displayScore : 100 - displayScore)
   if (score >= 60 && side === "P") {
-    return `${word.toUpperCase()} (${score})`
+    return `强${word.toUpperCase()} (${score})`
   }
   if (score >= 60 && side === "N") {
-    return `(${score}) ${word.toUpperCase()}`
+    return `(${score}) 强${word.toUpperCase()}`
   }
   if (side === "P") {
     return `${word.toLowerCase()} (${score})`
@@ -151,7 +151,7 @@ function setDimension(
 
 function render(): void {
   const name = nameInput.value.trim()
-  userName.textContent = name ? `${name}'s` : "Your"
+  userName.textContent = name ? `${name} 的` : "你 的"
   const raw = computeRaw()
   const anyNonZero =
     raw.introverted !== 0 ||
@@ -166,17 +166,17 @@ function render(): void {
   const c = code(display)
   const type = `${c.i}${c.s}${c.f}${c.p}`
   codeEl.textContent = type
-  const link = `https://www.16personalities.com/${type.toLowerCase()}-personality`
+  const link = `https://www.16personalities.com/ch/${type.toLowerCase()}-人格`
   mbtiLink.href = link
   mbtiLink.textContent = link
-  setDimension("abti-introverted", "P", display.introverted, "introverted")
-  setDimension("abti-extraverted", "N", display.introverted, "extraverted")
-  setDimension("abti-observant", "P", display.observant, "observant")
-  setDimension("abti-intuitive", "N", display.observant, "intuitive")
-  setDimension("abti-feeling", "P", display.feeling, "feeling")
-  setDimension("abti-thinking", "N", display.feeling, "thinking")
-  setDimension("abti-prospecting", "P", display.prospecting, "prospecting")
-  setDimension("abti-judging", "N", display.prospecting, "judging")
+  setDimension("abti-introverted", "P", display.introverted, "内向I")
+  setDimension("abti-extraverted", "N", display.introverted, "外向E")
+  setDimension("abti-observant", "P", display.observant, "相信数据S")
+  setDimension("abti-intuitive", "N", display.observant, "相信自己N")
+  setDimension("abti-feeling", "P", display.feeling, "他人感受F")
+  setDimension("abti-thinking", "N", display.feeling, "逻辑严谨T")
+  setDimension("abti-prospecting", "P", display.prospecting, "仰望星空P")
+  setDimension("abti-judging", "N", display.prospecting, "脚踏实地J")
 }
 
 form.addEventListener("change", render)

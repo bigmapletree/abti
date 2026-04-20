@@ -1,94 +1,85 @@
 # ABTI
 
-Agent Bias Type Indicator - the personality type test for hard-working (agent)
-coders.
+Agent Bias Type Indicator —— 为勤劳的（智能体）程序员设计的性格类型测试。
 
-## Compare to MBTI
+## 与 MBTI 的比较
 
-People act differently in life and at work, and MBTI mostly picks up the
-lifestyle side. Even on a work-framed test, it's tempting to answer the way you
-_wish_ you worked rather than how you actually work. ABTI drops the lifestyle
-questions and sticks to concrete day-to-day coding choices, which keeps the
-profile honest about real behavior on a coding project. ABTI test will make it
-easier to figure out how to collaborate with your coworkers better.
+人在生活中和工作中的表现往往不同，而 MBTI 主要捕捉的是生活方式层面的特征。即使在以工作为主题的测试中，人们也容易按自己
+_期望_
+的工作方式而非实际表现来作答。ABTI 舍弃了生活方式类的题目，专注于日常编码中的具体选择，从而确保测试结果忠实反映你在编码项目中的真实行为。ABTI 测试能帮助你更好地了解如何与同事协作。
 
-We keep the test result align with MBTI, which gives user a more directive
-impression about the result without teaching a new criteria.
+我们将测试结果对齐 MBTI 的维度，让用户无需学习新标准就能对结果有直观的理解。
 
-## Test objectives and matrix
+## 测试目标与维度矩阵
 
-The axes split into two halves. The **personal** groups cover the calls a coder
-makes alone at the keyboard, before anyone else sees the work. The **team-work**
-groups cover the calls that surface once the work meets other humans.
+维度分为两大类。**个人（personal）**
+组涵盖程序员独自在键盘前做出的决策——在他人看到代码之前。**团队协作（team-work）**
+组涵盖当工作与他人交汇时浮现的决策。
 
-The questionnaire has xxx questions across different groups. Each bullet below
-names one axis the test probes:
+问卷包含 xxx 道题目，分布在不同的分组中。以下每一项代表测试探查的一个维度：
 
-- personal: planning the project coding task
-  - breaking down the project
-  - reaching for an external dependency vs. rolling a homegrown helper
-  - reading the docs vs. reading the implementation
-  - planning the coding work
-- personal: writing the code
-  - scoping a task
-  - structuring the code
-  - shaping the commit history
-  - writing TODOs vs. writing implementation
-  - taste for clean code
-  - sense of readability
-  - short variable names vs. fully self-describing ones
-  - stance on code comments
-- personal: firming up the code
-  - designing for testability
-  - thinking about security
-  - dealing with tech debt
-  - digging around the codebase for related code
-  - calling a task done enough to stop
-- team-work: planning
-  - talking with peers
-  - talking with the code owner
-  - talking with direct reports
-  - talking with the PM handing off the tasks
-- team-work: code review
-  - reviewing a peer's code
-  - reviewing the code owner's code
-  - reviewing a direct report's code
-  - taking a peer's review feedback
-  - taking the code owner's review feedback
-  - taking a direct report's review feedback
-- team-work: emotional
-  - sitting with a peer's harsh words
-  - sitting with the code owner's harsh words
-  - sitting with a direct report's harsh words
+- 个人：规划项目编码任务
+  - 拆分项目
+  - 使用外部依赖 vs. 自己造轮子
+  - 看文档 vs. 看源码实现
+  - 规划编码工作
+- 个人：编写代码
+  - 确定任务范围
+  - 组织代码结构
+  - 管理提交历史
+  - 写 TODO vs. 写实现
+  - 对整洁代码的品味
+  - 对可读性的感觉
+  - 短变量名 vs. 完全自描述的长变量名
+  - 对代码注释的态度
+- 个人：加固代码
+  - 为可测试性而设计
+  - 考虑安全性
+  - 处理技术债务
+  - 在代码库中翻找相关代码
+  - 判断任务何时"够好了"可以收手
+- 团队协作：规划
+  - 与同级同事沟通
+  - 与代码负责人沟通
+  - 与直属下属沟通
+  - 与分配任务的产品经理沟通
+- 团队协作：代码评审
+  - 评审同级同事的代码
+  - 评审代码负责人的代码
+  - 评审直属下属的代码
+  - 接受同级同事的评审意见
+  - 接受代码负责人的评审意见
+  - 接受直属下属的评审意见
+- 团队协作：情绪
+  - 面对同级同事的严厉言辞
+  - 面对代码负责人的严厉言辞
+  - 面对直属下属的严厉言辞
 
-## Steps to generate the questionnaire
+## 问卷生成步骤
 
-Here's the pipeline we ran to turn a blank page into a weighted question set:
+以下是我们将空白页面变成加权题目集的流水线：
 
-1. Hand-pick 6 focus areas and 30 groups
-2. Have the agent draft 10 questions per group, for 300 total
-3. Shuffle the questions
-4. Have the agent prune near-duplicates in 3 passes, trimming down to 168
-5. Manually added some hand-made questions
-6. Have the agent assign a weight to each question
-7. Have the agent rebalance the weights so the positives add up to 100 and the
-   negatives add up to -100
-8. In the UI, manually rescale the score from [-300, +300] down to [-50, +50]
-   (divide by 6)
+1. 手动选定 6 个关注领域和 30 个分组
+2. 让智能体为每个分组起草 10 道题目，共 300 道
+3. 打乱题目顺序
+4. 让智能体分 3 轮剔除近似重复的题目，精简至 168 道
+5. 手动补充一些自制题目
+6. 让智能体为每道题目分配权重
+7. 让智能体重新平衡权重，使正向权重之和为 100、负向权重之和为 -100
+8. 在 UI 中手动将分数从 [-300, +300] 缩放到 [-50, +50]（除以 6）
 
-## Build your own personality test
+## 构建你自己的性格测试
 
-Want to spin up your own flavor of this test? Here's the short version:
+想做一个你自己版本的测试？简要步骤如下：
 
-1. Fork the repo
-2. Follow the steps above to generate your questionnaire
-3. Run `pnpm install && pnpm build` to produce the page and prompt
-4. Serve the page from any static site server, e.g. `npx serve .`
+1. Fork 本仓库
+2. 按照上述步骤生成你的问卷
+3. 运行 `pnpm install && pnpm build` 生成页面和提示词
+4. 使用任意静态站点服务器托管页面，例如 `npx serve .`
 
-## Acknowledgements
+## 致谢
 
-Majority of the work was done by Opus (4.7), including the Analytical Psychology
-framing, the question wording, and the README prose.
+大部分工作由 Opus
+(4.7) 完成，包括分析心理学框架的构建、题目措辞以及 README 的撰写。
 
-Nagi at Mapletree Inc. did the initial scaffolding to get the project off the
-ground.
+Mapletree Inc. 的 Nagi 负责了项目的初始搭建工作。

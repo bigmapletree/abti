@@ -1,158 +1,157 @@
 const grouping = {
   "personal-planning": {
-    label: "Personal: Planning",
+    label: "个人：规划",
     index: 1,
     minor: {
       "break-project": {
         minorIndex: 1,
-        label: "Breaking down the project",
+        label: "拆分项目",
       },
       "pick-dependency": {
         minorIndex: 2,
-        label:
-          "Reaching for an external dependency vs. rolling a homegrown helper",
+        label: "使用外部依赖 vs. 自己造轮子",
       },
       "read-docs": {
         minorIndex: 3,
-        label: "Reading the docs vs. reading the implementation",
+        label: "看文档 vs. 看源码实现",
       },
       "plan-work": {
         minorIndex: 4,
-        label: "Planning the coding work",
+        label: "规划编码工作",
       },
     },
   },
   "personal-writing-code": {
-    label: "Personal: Writing Code",
+    label: "个人：编写代码",
     index: 2,
     minor: {
       "scope-task": {
         minorIndex: 5,
-        label: "Scoping a task",
+        label: "确定任务范围",
       },
       "structure-code": {
         minorIndex: 6,
-        label: "Structuring the code",
+        label: "组织代码结构",
       },
       "shape-commits": {
         minorIndex: 7,
-        label: "Shaping the commit history",
+        label: "管理提交历史",
       },
       "write-todos": {
         minorIndex: 8,
-        label: "Writing TODOs vs. writing implementation",
+        label: "写 TODO vs. 写实现",
       },
       "polish-code": {
         minorIndex: 9,
-        label: "Taste for clean code",
+        label: "对整洁代码的品味",
       },
       "make-readable": {
         minorIndex: 10,
-        label: "Sense of readability",
+        label: "对可读性的感觉",
       },
       "name-variables": {
         minorIndex: 11,
-        label: "Short variable names vs. fully self-describing ones",
+        label: "短变量名 vs. 完全自描述的长变量名",
       },
       "write-comments": {
         minorIndex: 12,
-        label: "Stance on code comments",
+        label: "对代码注释的态度",
       },
     },
   },
   "personal-firming-up": {
-    label: "Personal: Firming Up",
+    label: "个人：加固代码",
     index: 3,
     minor: {
       "design-testable": {
         minorIndex: 13,
-        label: "Designing for testability",
+        label: "为可测试性而设计",
       },
       "think-security": {
         minorIndex: 14,
-        label: "Thinking about security",
+        label: "考虑安全性",
       },
       "handle-debt": {
         minorIndex: 15,
-        label: "Dealing with tech debt",
+        label: "处理技术债务",
       },
       "explore-code": {
         minorIndex: 16,
-        label: "Digging around the codebase for related code",
+        label: "在代码库中翻找相关代码",
       },
       "stop-task": {
         minorIndex: 17,
-        label: "Calling a task done enough to stop",
+        label: "判断任务何时可以收手",
       },
     },
   },
   "team-planning": {
-    label: "Team-work: Planning",
+    label: "团队协作：规划",
     index: 4,
     minor: {
       "talk-peer": {
         minorIndex: 18,
-        label: "Talking with peers",
+        label: "与同级同事沟通",
       },
       "talk-owner": {
         minorIndex: 19,
-        label: "Talking with the code owner",
+        label: "与代码负责人沟通",
       },
       "talk-report": {
         minorIndex: 20,
-        label: "Talking with direct reports",
+        label: "与直属下属沟通",
       },
       "talk-pm": {
         minorIndex: 21,
-        label: "Talking with the PM handing off the tasks",
+        label: "与分配任务的产品经理沟通",
       },
     },
   },
   "team-code-review": {
-    label: "Team-work: Code Review",
+    label: "团队协作：代码评审",
     index: 5,
     minor: {
       "review-peer": {
         minorIndex: 22,
-        label: "Reviewing a peer's code",
+        label: "评审同级同事的代码",
       },
       "review-owner": {
         minorIndex: 23,
-        label: "Reviewing the code owner's code",
+        label: "评审代码负责人的代码",
       },
       "review-report": {
         minorIndex: 24,
-        label: "Reviewing a direct report's code",
+        label: "评审直属下属的代码",
       },
       "take-peer": {
         minorIndex: 25,
-        label: "Taking a peer's review feedback",
+        label: "接受同级同事的评审意见",
       },
       "take-owner": {
         minorIndex: 26,
-        label: "Taking the code owner's review feedback",
+        label: "接受代码负责人的评审意见",
       },
       "take-report": {
         minorIndex: 27,
-        label: "Taking a direct report's review feedback",
+        label: "接受直属下属的评审意见",
       },
     },
   },
   "team-emotional": {
-    label: "Team-work: Emotional",
+    label: "团队协作：情绪",
     index: 6,
     minor: {
       "sit-peer": {
         minorIndex: 28,
-        label: "Sitting with a peer's harsh words",
+        label: "面对同级同事的严厉言辞",
       },
       "sit-owner": {
         minorIndex: 29,
-        label: "Sitting with the code owner's harsh words",
+        label: "面对代码负责人的严厉言辞",
       },
       "sit-report": {
         minorIndex: 30,
-        label: "Sitting with a direct report's harsh words",
+        label: "面对直属下属的严厉言辞",
       },
     },
   },

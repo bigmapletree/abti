@@ -6,7 +6,7 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
     question:
-      "When I'm planning with peers, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.",
+      "与同事一起规划时，轮到我发言时我更愿意用一句话概括，而不是一次性列出所有细节。",
     weight: { introverted: 1, observant: -2, feeling: 0, prospecting: 1 },
   },
   A2: {
@@ -14,7 +14,7 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-owner",
     question:
-      "When I'm planning with the owner, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.",
+      "与负责人一起规划时，轮到我发言时我更愿意用一句话概括，而不是一次性列出所有细节。",
     weight: { introverted: 1, observant: -2, feeling: -1, prospecting: 1 },
   },
   A3: {
@@ -22,7 +22,7 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-report",
     question:
-      "When I'm planning with a direct report, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.",
+      "与下属一起规划时，轮到我发言时我更愿意用一句话概括，而不是一次性列出所有细节。",
     weight: { introverted: 1, observant: -2, feeling: -1, prospecting: 1 },
   },
   A4: {
@@ -30,31 +30,28 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
     question:
-      "When I'm planning with a project manager, I'd rather give a one-sentence summary when it's my turn to talk than lay out every detail at once.",
+      "与项目经理一起规划时，轮到我发言时我更愿意用一句话概括，而不是一次性列出所有细节。",
     weight: { introverted: 1, observant: -2, feeling: 0, prospecting: 1 },
   },
   A5: {
     key: "A5",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "When I'm reviewing a peer's code, I'd rather leave a one-sentence summary than walk through every detail.",
+    question: "审查同事代码时，我更愿意留一句话总结，而不是逐一过每个细节。",
     weight: { introverted: 1, observant: -2, feeling: 0, prospecting: 1 },
   },
   A6: {
     key: "A6",
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
-    question:
-      "When I'm reviewing the owner's code, I'd rather leave a one-sentence summary than walk through every detail.",
+    question: "审查负责人代码时，我更愿意留一句话总结，而不是逐一过每个细节。",
     weight: { introverted: 1, observant: -2, feeling: -1, prospecting: 1 },
   },
   A7: {
     key: "A7",
     majorGroup: "team-code-review",
     minorGroup: "review-report",
-    question:
-      "When I'm reviewing a direct report's code, I'd rather leave a one-sentence summary than walk through every detail.",
+    question: "审查下属代码时，我更愿意留一句话总结，而不是逐一过每个细节。",
     weight: { introverted: 1, observant: -2, feeling: -1, prospecting: 1 },
   },
   B: {
@@ -62,23 +59,21 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "review-report",
     question:
-      "Praise in a report's review matters more than in a peer's — it calibrates what they think is good.",
+      "在下属的代码审查中给予表扬比在同事的审查中更重要——这能校准他们对「好」的标准。",
     weight: { introverted: -1, observant: -1, feeling: 2, prospecting: -1 },
   },
   BP: {
     key: "BP",
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
-    question:
-      "I'd rather ship a feature and patch a vulnerability later than hold it up for theoretical risks.",
+    question: "比起因为理论风险而搁置，我更愿意先发布功能，之后再修补漏洞。",
     weight: { introverted: 0, observant: -2, feeling: -2, prospecting: 2 },
   },
   C: {
     key: "C",
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
-    question:
-      "I work out my plan first, then share it — discussing too early wastes everyone's time.",
+    question: "我先想好方案再分享——过早讨论浪费大家的时间。",
     weight: { introverted: 2, observant: -1, feeling: -2, prospecting: -1 },
   },
   C2: {
@@ -86,15 +81,14 @@ export default {
     majorGroup: "personal-planning",
     minorGroup: "break-project",
     question:
-      "Breaking a task into pieces before starting feels like over-planning for most work I get.",
+      "开始前把任务分解成小块，对我接手的大多数工作来说感觉像过度规划。",
     weight: { introverted: -1, observant: -1, feeling: 0, prospecting: 2 },
   },
   C4: {
     key: "C4",
     majorGroup: "personal-writing-code",
     minorGroup: "structure-code",
-    question:
-      "I'd rather refactor a working prototype than design abstractions before I've seen the real code.",
+    question: "比起还没见到真实代码就设计抽象，我更愿意重构一个能跑的原型。",
     weight: { introverted: 0, observant: -1, feeling: 0, prospecting: 3 },
   },
   CF: {
@@ -102,7 +96,7 @@ export default {
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
     question:
-      "Security checks add real cost, so I apply them where the risk is real — not everywhere.",
+      "安全检查有实际成本，所以我只在风险真实存在的地方做——而不是到处都做。",
     weight: { introverted: 0, observant: 1, feeling: -1, prospecting: 1 },
   },
   Cd: {
@@ -110,31 +104,28 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
     question:
-      "PMs juggle people and priorities I don't see — I trust their prioritization more than I question it.",
+      "项目经理要权衡许多我看不到的人和优先级——比起质疑，我更信任他们的排序。",
     weight: { introverted: 0, observant: 1, feeling: 0, prospecting: 0 },
   },
   Ce: {
     key: "Ce",
     majorGroup: "team-code-review",
     minorGroup: "review-report",
-    question:
-      "I hold a direct report's code to the same bar as my own — maybe higher, for their benefit.",
+    question: "我用和自己相同的标准要求下属的代码——甚至更高，为了他们好。",
     weight: { introverted: -1, observant: 1, feeling: -1, prospecting: -1 },
   },
   D: {
     key: "D",
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
-    question:
-      "I'll push back on the code owner just as firmly as on a peer when I think they're wrong.",
+    question: "当我认为代码负责人有误时，我会像对同事一样坚定地反驳。",
     weight: { introverted: -2, observant: -1, feeling: -2, prospecting: 0 },
   },
   Dc: {
     key: "Dc",
     majorGroup: "team-emotional",
     minorGroup: "sit-owner",
-    question:
-      "I avoid the code owner for a while after a harsh exchange, just to let things cool.",
+    question: "一次激烈交锋后，我会暂时避开代码负责人，让事情冷却一下。",
     weight: { introverted: 3, observant: -1, feeling: 2, prospecting: 0 },
   },
   Dq: {
@@ -142,7 +133,7 @@ export default {
     majorGroup: "team-emotional",
     minorGroup: "sit-owner",
     question:
-      "I address harsh code owner comments in a 1:1, not in the thread where they happened.",
+      "我会在一对一沟通中处理代码负责人的尖锐评论，而不是在原来的讨论帖里。",
     weight: { introverted: 1, observant: 1, feeling: 2, prospecting: 0 },
   },
   E: {
@@ -150,15 +141,14 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "polish-code",
     question:
-      "Clean code is partly about respect — for the next reader and for myself in six months.",
+      "写干净的代码某种程度上是一种尊重——对下一个读者，也对六个月后的自己。",
     weight: { introverted: 0, observant: -1, feeling: 1, prospecting: 0 },
   },
   E8: {
     key: "E8",
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
-    question:
-      "Threat modeling a new design is something I enjoy more than the rest of the team probably does.",
+    question: "对新设计做威胁建模这件事，我大概比团队其他人更享受。",
     weight: { introverted: 2, observant: 0, feeling: -1, prospecting: -1 },
   },
   EI: {
@@ -166,15 +156,14 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
     question:
-      "A good PM brings me problems, not solutions — if the spec reads like a design doc, I question it.",
+      "好的项目经理带给我的是问题而非解决方案——如果需求文档读起来像设计文档，我会质疑。",
     weight: { introverted: -2, observant: -2, feeling: -2, prospecting: 1 },
   },
   EO: {
     key: "EO",
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
-    question:
-      "Getting through a code owner's review without many comments feels like a personal win.",
+    question: "通过代码负责人的审查而没有太多评论，感觉像一次个人胜利。",
     weight: { introverted: 1, observant: 1, feeling: 2, prospecting: -1 },
   },
   F: {
@@ -182,7 +171,7 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "shape-commits",
     question:
-      "I write commit messages with the reviewer (or future me) in mind, not just the automated tools.",
+      "我写提交信息时会考虑审查者（或未来的自己），而不仅仅是自动化工具。",
     weight: { introverted: 0, observant: 0, feeling: 1, prospecting: -1 },
   },
   F0: {
@@ -190,7 +179,7 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
     question:
-      "I treat code-owner review comments the same as any other — I take the ones that hold up.",
+      "我对待代码负责人的审查评论和其他人的一样——我采纳站得住脚的那些。",
     weight: { introverted: -1, observant: 1, feeling: -2, prospecting: 0 },
   },
   FG: {
@@ -198,63 +187,56 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-owner",
     question:
-      "If I'm confident in my approach, I'll write the PR first and let the code owner react to real code.",
+      "如果我对方案有信心，我会先写好 PR，让代码负责人对实际代码做出反应。",
     weight: { introverted: 1, observant: -2, feeling: -2, prospecting: 2 },
   },
   Fd: {
     key: "Fd",
     majorGroup: "team-emotional",
     minorGroup: "sit-owner",
-    question:
-      "Harsh words from the code owner are just signal — I don't read anything personal into them.",
+    question: "代码负责人的尖锐言辞只是信号——我不会往人身攻击上想。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: 1 },
   },
   Fr: {
     key: "Fr",
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
-    question:
-      "Reviewing the code owner's code, I'm more careful with my wording than I'd be with a peer's.",
+    question: "审查代码负责人的代码时，我会比审查同事的更注意措辞。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: -1 },
   },
   H: {
     key: "H",
     majorGroup: "personal-firming-up",
     minorGroup: "explore-code",
-    question:
-      "I dig through git blame before I change a non-trivial line — context lives in history.",
+    question: "改动重要代码行之前，我会查看 git blame——上下文就在历史记录里。",
     weight: { introverted: 1, observant: 0, feeling: 0, prospecting: -1 },
   },
   H0: {
     key: "H0",
     majorGroup: "personal-writing-code",
     minorGroup: "shape-commits",
-    question:
-      "A commit is a save point — I don't worry about what it looks like afterward.",
+    question: "提交就是存档点——我不在意它之后看起来什么样。",
     weight: { introverted: -1, observant: -1, feeling: -1, prospecting: 2 },
   },
   HU: {
     key: "HU",
     majorGroup: "team-planning",
     minorGroup: "talk-report",
-    question:
-      "When I hand a task off, I include the exact constraints I'd want someone to give me.",
+    question: "交接任务时，我会列出我自己希望别人给我的那些具体约束条件。",
     weight: { introverted: 2, observant: 2, feeling: 1, prospecting: -2 },
   },
   HX: {
     key: "HX",
     majorGroup: "personal-writing-code",
     minorGroup: "scope-task",
-    question:
-      "I feel a pull to rewrite surrounding code whenever I touch a file.",
+    question: "每当我碰一个文件时，我都会有想重写周围代码的冲动。",
     weight: { introverted: 0, observant: -1, feeling: 1, prospecting: 2 },
   },
   Hz: {
     key: "Hz",
     majorGroup: "team-emotional",
     minorGroup: "sit-owner",
-    question:
-      "A harsh word from the code owner can throw off the rest of my week.",
+    question: "代码负责人的一句重话能打乱我一整周的节奏。",
     weight: { introverted: 3, observant: -1, feeling: 3, prospecting: 0 },
   },
   I: {
@@ -262,95 +244,84 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "shape-commits",
     question:
-      "Each commit should ideally do one thing, even if that means breaking up a working change.",
+      "理想情况下，每个提交应该只做一件事，即使这意味着要拆分一个完整的改动。",
     weight: { introverted: 0, observant: 0, feeling: 0, prospecting: -1 },
   },
   I1: {
     key: "I1",
     majorGroup: "personal-firming-up",
     minorGroup: "handle-debt",
-    question:
-      "I keep a running list of tech debt I notice so I can propose a cleanup sprint later.",
+    question: "我会持续记录我注意到的技术债，以便日后提议一次集中清理。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -3 },
   },
   K: {
     key: "K",
     majorGroup: "team-planning",
     minorGroup: "talk-report",
-    question:
-      "I let a direct report stumble on a problem for a bit before I step in — they learn more that way.",
+    question: "我会让下属在问题上先摸索一阵再介入——这样他们学到的更多。",
     weight: { introverted: 1, observant: -1, feeling: 1, prospecting: 2 },
   },
   KA: {
     key: "KA",
     majorGroup: "personal-writing-code",
     minorGroup: "structure-code",
-    question:
-      "I build from the top down — sketch the control flow first, fill in the details later.",
+    question: "我自顶向下构建——先勾勒控制流，再填充细节。",
     weight: { introverted: 0, observant: -2, feeling: 0, prospecting: -1 },
   },
   KT: {
     key: "KT",
     majorGroup: "personal-writing-code",
     minorGroup: "write-todos",
-    question:
-      "When I leave a TODO, I tag it with an owner and a reason so it's easy to pick up later.",
+    question: "留 TODO 时，我会标注负责人和原因，方便以后接手。",
     weight: { introverted: -1, observant: 2, feeling: 0, prospecting: -1 },
   },
   KTf: {
     key: "KTf",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "If I'd solve it differently, I'll say so in the review — the peer can push back.",
+    question: "如果我会用不同的方式解决，我会在审查中说出来——同事可以反驳。",
     weight: { introverted: -2, observant: -2, feeling: -2, prospecting: 0 },
   },
   Kj: {
     key: "Kj",
     majorGroup: "personal-planning",
     minorGroup: "pick-dependency",
-    question:
-      "Every new dependency is a long-term liability, so I default to writing the minimum I need myself.",
+    question: "每个新依赖都是长期负担，所以我倾向于自己写最少必要的代码。",
     weight: { introverted: 2, observant: -2, feeling: -2, prospecting: -1 },
   },
   L: {
     key: "L",
     majorGroup: "team-code-review",
     minorGroup: "take-report",
-    question:
-      "It's fine to brush past a report's review comment that's clearly off-base — I don't owe every comment engagement.",
+    question: "忽略下属明显离谱的审查评论没什么问题——我没必要回应每一条。",
     weight: { introverted: -1, observant: -1, feeling: -3, prospecting: 1 },
   },
   Li: {
     key: "Li",
     majorGroup: "personal-planning",
     minorGroup: "read-docs",
-    question:
-      "When something surprises me about a library's behavior, my first move is to open its source.",
+    question: "当一个库的行为出乎我意料时，我的第一反应是打开它的源码。",
     weight: { introverted: 1, observant: -2, feeling: -1, prospecting: 2 },
   },
   M: {
     key: "M",
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
-    question:
-      "Long async back-and-forths are usually worse than a 10-minute sync with a peer.",
+    question: "冗长的异步来回通常不如和同事十分钟的同步沟通。",
     weight: { introverted: -3, observant: -1, feeling: 1, prospecting: 1 },
   },
   N: {
     key: "N",
     majorGroup: "personal-writing-code",
     minorGroup: "structure-code",
-    question:
-      "I build from the bottom up — small pieces first, composition later.",
+    question: "我自底向上构建——先写小组件，再组合。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: -1 },
   },
   N3: {
     key: "N3",
     majorGroup: "personal-writing-code",
     minorGroup: "make-readable",
-    question:
-      "I'd rather write three extra lines than a clever one-liner that reads like a puzzle.",
+    question: "比起一行巧妙但像谜语一样的代码，我宁愿多写三行。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: -1 },
   },
   Nu: {
@@ -358,7 +329,7 @@ export default {
     majorGroup: "personal-firming-up",
     minorGroup: "handle-debt",
     question:
-      "If I touch a file with tech debt, I usually leave it a little cleaner than I found it.",
+      "如果我碰到一个有技术债的文件，我通常会让它比我看到时更干净一些。",
     weight: { introverted: 0, observant: 0, feeling: 1, prospecting: -2 },
   },
   O: {
@@ -366,23 +337,21 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "scope-task",
     question:
-      "I try hard to keep the first pass at a task tightly scoped, even if I see nearby improvements I could make.",
+      "我会努力让任务的第一遍保持严格的范围，即使我看到附近有可以改进的地方。",
     weight: { introverted: 0, observant: 0, feeling: 0, prospecting: -2 },
   },
   OG: {
     key: "OG",
     majorGroup: "team-emotional",
     minorGroup: "sit-owner",
-    question:
-      "I'll call out harsh language from the code owner directly — seniority doesn't excuse tone.",
+    question: "我会直接指出代码负责人的尖锐措辞——资历不是语气差的借口。",
     weight: { introverted: -3, observant: -1, feeling: -2, prospecting: 0 },
   },
   OZ: {
     key: "OZ",
     majorGroup: "personal-writing-code",
     minorGroup: "polish-code",
-    question:
-      "The aesthetics of code matter less than whether I could rewrite it in five minutes if wrong.",
+    question: "代码的美观不如「写错了能不能五分钟内重写」来得重要。",
     weight: { introverted: 0, observant: 1, feeling: -2, prospecting: 3 },
   },
   Ow: {
@@ -390,31 +359,28 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-report",
     question:
-      "I sometimes learn more from a direct report's review than from a senior's, because they see things fresh.",
+      "有时我从下属的审查中学到的比资深同事的更多，因为他们的视角更新鲜。",
     weight: { introverted: -3, observant: 0, feeling: 1, prospecting: 1 },
   },
   P: {
     key: "P",
     majorGroup: "personal-writing-code",
     minorGroup: "shape-commits",
-    question:
-      "A bisect-friendly history is worth the extra work of shaping commits carefully.",
+    question: "一个方便 bisect 的提交历史值得花额外功夫精心整理提交。",
     weight: { introverted: 1, observant: 2, feeling: 0, prospecting: -2 },
   },
   PJ: {
     key: "PJ",
     majorGroup: "team-emotional",
     minorGroup: "sit-report",
-    question:
-      "I set clear expectations about tone with direct reports — harshness in either direction isn't acceptable.",
+    question: "我会和下属明确沟通语气方面的期望——双方态度尖锐都不可接受。",
     weight: { introverted: -2, observant: 1, feeling: -1, prospecting: -1 },
   },
   PK: {
     key: "PK",
     majorGroup: "team-emotional",
     minorGroup: "sit-peer",
-    question:
-      "After a tough exchange with a peer, I'll step away from the keyboard before I respond.",
+    question: "和同事发生激烈交流后，我会离开键盘冷静一下再回复。",
     weight: { introverted: 2, observant: -1, feeling: 2, prospecting: 0 },
   },
   Pk: {
@@ -422,7 +388,7 @@ export default {
     majorGroup: "personal-planning",
     minorGroup: "pick-dependency",
     question:
-      "External dependencies are usually tested by more people than my own code, which is a reason to prefer them.",
+      "外部依赖通常有比我自己的代码更多的人测试过，这是倾向于使用它们的一个理由。",
     weight: { introverted: -1, observant: 1, feeling: -1, prospecting: 0 },
   },
   Pm: {
@@ -430,7 +396,7 @@ export default {
     majorGroup: "personal-firming-up",
     minorGroup: "design-testable",
     question:
-      "I'll skip tests on code I expect to throw away — writing them is only worth it once the shape is stable.",
+      "对于预计会丢弃的代码，我会跳过测试——只有形态稳定后写测试才有价值。",
     weight: { introverted: 0, observant: -1, feeling: -1, prospecting: 2 },
   },
   Q: {
@@ -438,15 +404,14 @@ export default {
     majorGroup: "personal-planning",
     minorGroup: "plan-work",
     question:
-      "I often start coding before I have a clear plan, and let the plan emerge from the code.",
+      "我经常在没有清晰计划的情况下就开始写代码，让计划从代码中自然浮现。",
     weight: { introverted: -1, observant: -1, feeling: 0, prospecting: 3 },
   },
   Q0: {
     key: "Q0",
     majorGroup: "personal-planning",
     minorGroup: "read-docs",
-    question:
-      "I'd rather spend an hour reading a library's source than risk misunderstanding its docs.",
+    question: "比起冒着误解文档的风险，我更愿意花一个小时读一个库的源码。",
     weight: { introverted: 2, observant: -2, feeling: -1, prospecting: 2 },
   },
   Q0r: {
@@ -454,7 +419,7 @@ export default {
     majorGroup: "personal-firming-up",
     minorGroup: "explore-code",
     question:
-      "Scoping my attention to the immediate change keeps me shipping — I can't afford to explore on the clock.",
+      "把注意力集中在当前改动上让我保持产出——我没时间在工作时间里随意探索。",
     weight: { introverted: 1, observant: 2, feeling: 0, prospecting: 1 },
   },
   QQ: {
@@ -462,55 +427,49 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
     question:
-      "A vague PM task is a red flag — I'd rather delay kickoff than build on unclear requirements.",
+      "项目经理模糊的任务描述是一个危险信号——比起在不清晰的需求上开工，我宁愿推迟启动。",
     weight: { introverted: 0, observant: -1, feeling: -2, prospecting: -1 },
   },
   Qm: {
     key: "Qm",
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
-    question:
-      "Even when I'm confident in my plan, talking it through with a peer usually sharpens it.",
+    question: "即使我对方案很有信心，和同事聊一遍通常也能让它更完善。",
     weight: { introverted: -2, observant: -1, feeling: 1, prospecting: 1 },
   },
   Qs: {
     key: "Qs",
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
-    question:
-      "When the code owner asks me to change something, I usually do it even if I disagree.",
+    question: "当代码负责人要求我改一些东西时，即使我不同意，我通常也会照做。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: 0 },
   },
   R: {
     key: "R",
     majorGroup: "personal-firming-up",
     minorGroup: "explore-code",
-    question:
-      "Before I write a new helper, I grep the codebase to check whether something similar already exists.",
+    question: "写一个新的辅助函数之前，我会在代码库中搜索是否已经有类似的。",
     weight: { introverted: 1, observant: 0, feeling: 0, prospecting: -2 },
   },
   RP: {
     key: "RP",
     majorGroup: "personal-writing-code",
     minorGroup: "structure-code",
-    question:
-      "A diagram or sketch of the module layout saves me hours once I start typing.",
+    question: "模块布局的图示或草图能在我开始写代码时节省好几个小时。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: -1 },
   },
   RP0: {
     key: "RP0",
     majorGroup: "personal-writing-code",
     minorGroup: "write-comments",
-    question:
-      "I write comments sparingly — most of what I'd say is already in the code.",
+    question: "我很少写注释——我想说的大部分内容已经在代码里了。",
     weight: { introverted: 0, observant: 1, feeling: -3, prospecting: 0 },
   },
   S: {
     key: "S",
     majorGroup: "team-emotional",
     minorGroup: "sit-peer",
-    question:
-      "If a peer is harsh with me, I'd rather talk it out directly than sit with the feeling.",
+    question: "如果同事对我态度尖锐，我更愿意直接谈开，而不是闷在心里。",
     weight: { introverted: -3, observant: -1, feeling: 1, prospecting: 0 },
   },
   S6: {
@@ -518,7 +477,7 @@ export default {
     majorGroup: "team-emotional",
     minorGroup: "sit-report",
     question:
-      "When a direct report is harsh with me, it's especially hard because I feel responsible for their experience too.",
+      "当下属对我态度尖锐时，这尤其难受，因为我觉得他们的体验也是我的责任。",
     weight: { introverted: 1, observant: -1, feeling: 3, prospecting: 0 },
   },
   Sp: {
@@ -526,7 +485,7 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
     question:
-      "I ask the code owner follow-up questions when their review comments aren't clear — I'd rather not guess.",
+      "当代码负责人的审查评论不够清楚时，我会追问——比起猜测我更愿意确认。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: -1 },
   },
   T: {
@@ -534,15 +493,14 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "review-report",
     question:
-      "Reviewing a direct report's code is partly teaching — I explain *why*, not just *what*.",
+      "审查下属的代码一定程度上是在教学——我会解释「为什么」，而不仅仅是「是什么」。",
     weight: { introverted: -2, observant: 0, feeling: 2, prospecting: -1 },
   },
   Tp: {
     key: "Tp",
     majorGroup: "personal-planning",
     minorGroup: "read-docs",
-    question:
-      "The best way to learn a library is to spend time in its tests and examples, not its README.",
+    question: "学习一个库的最好方式是看它的测试和示例，而不是它的 README。",
     weight: { introverted: 1, observant: -1, feeling: 0, prospecting: 2 },
   },
   U: {
@@ -550,23 +508,21 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
     question:
-      "I'd rather send a peer a written doc than schedule a call — they can respond when they're free.",
+      "比起约一通电话，我更愿意给同事发一份书面文档——他们有空时再回复就好。",
     weight: { introverted: 3, observant: 1, feeling: -2, prospecting: -1 },
   },
   V: {
     key: "V",
     majorGroup: "personal-writing-code",
     minorGroup: "name-variables",
-    question:
-      "A variable name should encode enough context that I don't need to scroll to understand it.",
+    question: "变量名应该包含足够的上下文信息，让我不用翻页就能理解。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -1 },
   },
   Ve: {
     key: "Ve",
     majorGroup: "personal-planning",
     minorGroup: "plan-work",
-    question:
-      "Once I commit to a plan, I stick to it unless there's a strong reason to deviate.",
+    question: "一旦我确定了一个方案，除非有很强的理由，否则我会坚持下去。",
     weight: { introverted: 0, observant: 1, feeling: -1, prospecting: -3 },
   },
   Vs: {
@@ -574,15 +530,14 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-report",
     question:
-      'I explain my reasoning when I push back on a report\'s review, not just "no" — they need the context.',
+      "当我反驳下属的审查意见时，我会解释理由，而不只是说「不」——他们需要了解背景。",
     weight: { introverted: -2, observant: 1, feeling: 1, prospecting: -1 },
   },
   Vv: {
     key: "Vv",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "I ship as soon as the happy path works — edge cases can be fixed in follow-ups.",
+    question: "一旦主流程跑通我就发布——边界情况可以在后续修复。",
     weight: { introverted: 0, observant: -1, feeling: -1, prospecting: 3 },
   },
   W: {
@@ -590,7 +545,7 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-report",
     question:
-      "It takes effort for me not to be subtly dismissive when a direct report reviews my code.",
+      "当下属审查我的代码时，我要花些力气才不会不自觉地轻视他们的意见。",
     weight: { introverted: -1, observant: -1, feeling: 1, prospecting: 0 },
   },
   X: {
@@ -598,15 +553,14 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "make-readable",
     question:
-      "If a block of code has more than a few ideas in it, I pull helpers out until each reads like prose.",
+      "如果一段代码包含太多想法，我会提取辅助函数，直到每一段都像散文一样易读。",
     weight: { introverted: 0, observant: 1, feeling: 0, prospecting: -1 },
   },
   Xv: {
     key: "Xv",
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
-    question:
-      "If a peer's review comment is clearly wrong, I'll skip it and move on.",
+    question: "如果同事的审查评论明显有误，我会跳过继续往前走。",
     weight: { introverted: 1, observant: -2, feeling: -2, prospecting: 2 },
   },
   Y: {
@@ -614,23 +568,21 @@ export default {
     majorGroup: "personal-planning",
     minorGroup: "plan-work",
     question:
-      "I estimate my tasks before starting, even if just roughly, so I know when I'm off track.",
+      "开始之前我会估算任务，哪怕只是粗略估计，这样我能知道是否偏离了轨道。",
     weight: { introverted: 1, observant: 1, feeling: -1, prospecting: -2 },
   },
   Y1: {
     key: "Y1",
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
-    question:
-      "I argue back hard against the code owner when I'm confident — being junior isn't a reason to fold.",
+    question: "当我有把握时，我会和代码负责人据理力争——资历浅不是让步的理由。",
     weight: { introverted: -3, observant: -2, feeling: -2, prospecting: 0 },
   },
   Z: {
     key: "Z",
     majorGroup: "personal-writing-code",
     minorGroup: "polish-code",
-    question:
-      "Fighting ugly code drains time I could be spending on real problems.",
+    question: "和丑陋的代码较劲浪费了我本可以用来解决真正问题的时间。",
     weight: { introverted: 0, observant: 1, feeling: -3, prospecting: 2 },
   },
   ZW: {
@@ -638,39 +590,35 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "write-comments",
     question:
-      "A comment citing a ticket, incident, or link gives a reader a way to recover context I can't include.",
+      "引用工单、事件或链接的注释能为读者提供一种我无法内联的上下文恢复方式。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: -1 },
   },
   b: {
     key: "b",
     majorGroup: "team-emotional",
     minorGroup: "sit-peer",
-    question:
-      "A peer's harsh words mostly don't land — I can separate the content from the tone.",
+    question: "同事的尖锐言辞对我影响不大——我能把内容和语气分开。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: 0 },
   },
   b6: {
     key: "b6",
     majorGroup: "team-emotional",
     minorGroup: "sit-report",
-    question:
-      "I remind myself that a direct report being harsh is probably a symptom of something else I should learn about.",
+    question: "我提醒自己，下属态度尖锐可能是某些我应该了解的问题的表现。",
     weight: { introverted: 1, observant: -1, feeling: 3, prospecting: 0 },
   },
   b9: {
     key: "b9",
     majorGroup: "personal-planning",
     minorGroup: "plan-work",
-    question:
-      "I write down milestones for longer tasks so I can tell when I'm behind.",
+    question: "较长的任务我会写下里程碑，以便知道自己是否落后了。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: -2 },
   },
   bY: {
     key: "bY",
     majorGroup: "personal-writing-code",
     minorGroup: "write-todos",
-    question:
-      "A TODO that stays in the code for six months is a failure — I'd rather handle it or delete it.",
+    question: "一个在代码中留了六个月的 TODO 就是失败——我宁愿处理掉或删掉它。",
     weight: { introverted: 0, observant: 1, feeling: 0, prospecting: -3 },
   },
   bc: {
@@ -678,39 +626,35 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
     question:
-      "I address every peer review comment, even the ones I disagree with — they deserve a response.",
+      "我会回应每一条同事的审查评论，即使是我不同意的——它们值得一个回复。",
     weight: { introverted: -2, observant: 1, feeling: 1, prospecting: -3 },
   },
   c: {
     key: "c",
     majorGroup: "team-code-review",
     minorGroup: "review-report",
-    question:
-      "I time my feedback on a report's PR carefully — too much at once is overwhelming.",
+    question: "我会仔细把控对下属 PR 反馈的节奏——一次给太多会让人招架不住。",
     weight: { introverted: 1, observant: -1, feeling: 2, prospecting: 0 },
   },
   c3: {
     key: "c3",
     majorGroup: "personal-writing-code",
     minorGroup: "name-variables",
-    question:
-      "I rename variables repeatedly during review, trying to find the clearest phrasing.",
+    question: "审查时我会反复重命名变量，试图找到最清晰的表达。",
     weight: { introverted: 1, observant: 0, feeling: 0, prospecting: -1 },
   },
   cC: {
     key: "cC",
     majorGroup: "personal-writing-code",
     minorGroup: "make-readable",
-    question:
-      "I read my code back after writing it, pretending I've never seen it before.",
+    question: "写完代码后我会重新读一遍，假装自己从未见过它。",
     weight: { introverted: 1, observant: 1, feeling: -1, prospecting: -1 },
   },
   cg: {
     key: "cg",
     majorGroup: "personal-writing-code",
     minorGroup: "shape-commits",
-    question:
-      "I rewrite my commits before opening a PR so the history reads cleanly from start to finish.",
+    question: "提交 PR 之前我会重写提交记录，让历史从头到尾读起来清晰连贯。",
     weight: { introverted: 2, observant: 1, feeling: 1, prospecting: -3 },
   },
   d: {
@@ -718,79 +662,70 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
     question:
-      "I ask the code owner for their rationale when something looks off — they often know something I don't.",
+      "看到可疑之处时我会问代码负责人理由——他们往往知道一些我不知道的事。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: -1 },
   },
   d5: {
     key: "d5",
     majorGroup: "team-emotional",
     minorGroup: "sit-peer",
-    question:
-      "I assume peers are just having a rough day when they're sharp with me.",
+    question: "同事对我态度尖锐时，我会假设他们只是那天不顺。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: 0 },
   },
   dC: {
     key: "dC",
     majorGroup: "personal-writing-code",
     minorGroup: "polish-code",
-    question:
-      "I notice the small aesthetic choices in other people's code and borrow what I like.",
+    question: "我会注意别人代码中的细微美学选择，并借鉴我喜欢的。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: 1 },
   },
   dE: {
     key: "dE",
     majorGroup: "team-code-review",
     minorGroup: "take-report",
-    question:
-      "When a direct report finds a bug in my code, I make a point of thanking them visibly.",
+    question: "当下属在我的代码中发现了 bug，我会刻意当众感谢他们。",
     weight: { introverted: -2, observant: -1, feeling: 2, prospecting: 0 },
   },
   dQ: {
     key: "dQ",
     majorGroup: "personal-writing-code",
     minorGroup: "make-readable",
-    question:
-      "Readability is mostly about matching the reader's expectations for the language and framework.",
+    question: "可读性主要在于符合读者对该语言和框架的预期。",
     weight: { introverted: 1, observant: 2, feeling: -2, prospecting: 0 },
   },
   du: {
     key: "du",
     majorGroup: "personal-writing-code",
     minorGroup: "make-readable",
-    question:
-      "Dense, idiomatic code is more readable to me than verbose step-by-step code.",
+    question: "对我来说，简洁惯用的代码比冗长的分步代码更易读。",
     weight: { introverted: 0, observant: -2, feeling: -2, prospecting: 0 },
   },
   e: {
     key: "e",
     majorGroup: "personal-firming-up",
     minorGroup: "handle-debt",
-    question:
-      "Tech debt is just work that hasn't been prioritized yet — there's no moral weight to it.",
+    question: "技术债只是尚未被优先安排的工作——它没有道德包袱。",
     weight: { introverted: 0, observant: 1, feeling: -3, prospecting: 1 },
   },
   ek: {
     key: "ek",
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
-    question:
-      "I think through the worst-case misuse of every new endpoint before shipping it.",
+    question: "发布每个新端点之前，我都会考虑最坏情况下的滥用可能。",
     weight: { introverted: 1, observant: 1, feeling: -2, prospecting: -2 },
   },
   f: {
     key: "f",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "I catch myself shipping a little later than I should, trying to get one more thing right.",
+    question: "我发现自己总是发布得比应该的晚一点，想再多把一件事做好。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -2 },
   },
   fH: {
     key: "fH",
     majorGroup: "team-planning",
     minorGroup: "talk-report",
-    question:
-      'It helps a report more to hear "here\'s what I\'d do" than "figure it out yourself."',
+    question: "对下属来说，听到「我会这样做」比「你自己想办法」更有帮助。",
     weight: { introverted: -2, observant: 1, feeling: 1, prospecting: -1 },
   },
   fO: {
@@ -798,23 +733,21 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-owner",
     question:
-      "If the code owner's design is wrong, I'll say so — ownership doesn't make them right.",
+      "如果代码负责人的设计有问题，我会直说——所有权不代表他们就是对的。",
     weight: { introverted: -2, observant: -1, feeling: -2, prospecting: 0 },
   },
   ft: {
     key: "ft",
     majorGroup: "team-code-review",
     minorGroup: "review-report",
-    question:
-      "I'll DM a report with tougher feedback rather than put it in the public review thread.",
+    question: "比较严厉的反馈我会私信下属，而不是放在公开的审查评论中。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: 0 },
   },
   fu: {
     key: "fu",
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
-    question:
-      "The code owner's code deserves the same scrutiny as anyone else's — probably more.",
+    question: "代码负责人的代码应该和其他人的一样受到审视——甚至更多。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: -1 },
   },
   g: {
@@ -822,31 +755,28 @@ export default {
     majorGroup: "personal-planning",
     minorGroup: "break-project",
     question:
-      "If a task won't fit in my head all at once, I stop and decompose it before writing any code.",
+      "如果一个任务没法一次性装进脑子里，我会先停下来分解，再写任何代码。",
     weight: { introverted: 1, observant: 1, feeling: 0, prospecting: -2 },
   },
   gN: {
     key: "gN",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "A task is done when I've convinced myself, not when some checklist says so.",
+    question: "一个任务做完是因为我说服了自己，而不是因为某个清单打了勾。",
     weight: { introverted: 1, observant: -2, feeling: 1, prospecting: 2 },
   },
   gl: {
     key: "gl",
     majorGroup: "personal-writing-code",
     minorGroup: "make-readable",
-    question:
-      "Code that reads the way I'd describe the problem out loud feels most right.",
+    question: "代码读起来像我口头描述问题的方式时，感觉最对。",
     weight: { introverted: 0, observant: -1, feeling: 0, prospecting: 0 },
   },
   gs: {
     key: "gs",
     majorGroup: "team-code-review",
     minorGroup: "take-report",
-    question:
-      "A direct report catching something I missed is a sign the review process is working.",
+    question: "下属发现了我遗漏的问题，说明代码审查流程在起作用。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: 0 },
   },
   h: {
@@ -854,63 +784,56 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
     question:
-      "I surface trade-offs and risks to the PM early, even when they're outside what I was asked about.",
+      "我会尽早向项目经理展现权衡和风险，即使这些不在我被问到的范围内。",
     weight: { introverted: -2, observant: 1, feeling: 1, prospecting: -1 },
   },
   hW: {
     key: "hW",
     majorGroup: "personal-planning",
     minorGroup: "break-project",
-    question:
-      "I keep a written list of subtasks open while I work, and I cross them off as I go.",
+    question: "工作时我会打开一份子任务清单，完成一项就划掉一项。",
     weight: { introverted: 1, observant: 2, feeling: 0, prospecting: -2 },
   },
   hw: {
     key: "hw",
     majorGroup: "personal-planning",
     minorGroup: "plan-work",
-    question:
-      "A rough written plan saves me from false starts I'd otherwise make.",
+    question: "一份粗略的书面计划能帮我避免本来会犯的错误起步。",
     weight: { introverted: 1, observant: -1, feeling: 0, prospecting: -1 },
   },
   i: {
     key: "i",
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
-    question:
-      "Pairing with a peer for the first hour of a task makes the whole task smoother.",
+    question: "任务开始的第一个小时和同事结对，能让整个任务更顺畅。",
     weight: { introverted: -3, observant: -1, feeling: 1, prospecting: 0 },
   },
   iD: {
     key: "iD",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "Shipping is the hardest part — once I'm close, I push to close the task rather than extend it.",
+    question: "发布是最难的部分——一旦接近完成，我会推动关闭任务而不是延长它。",
     weight: { introverted: -2, observant: 1, feeling: -1, prospecting: 1 },
   },
   iL: {
     key: "iL",
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
-    question:
-      "A rough peer review leaves me a little deflated, even when I know the feedback is right.",
+    question: "一次粗暴的同事审查会让我有点丧气，即使我知道反馈是对的。",
     weight: { introverted: 2, observant: -1, feeling: 2, prospecting: 0 },
   },
   j: {
     key: "j",
     majorGroup: "personal-firming-up",
     minorGroup: "design-testable",
-    question:
-      "Integration tests that hit real systems are worth more than fifty unit tests.",
+    question: "接入真实系统的集成测试比五十个单元测试更有价值。",
     weight: { introverted: 0, observant: -1, feeling: 0, prospecting: 2 },
   },
   j9: {
     key: "j9",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "I pick my battles in peer reviews — pointing out every small thing strains the relationship.",
+    question: "同事审查中我会有选择地提意见——每件小事都指出来会损害关系。",
     weight: { introverted: 1, observant: -1, feeling: 1, prospecting: 1 },
   },
   jK: {
@@ -918,7 +841,7 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "scope-task",
     question:
-      "If I can fix a small nearby bug in the same PR, I do — splitting it feels like pointless overhead.",
+      "如果能在同一个 PR 里顺手修个附近的小 bug，我就会做——拆分它感觉是没意义的额外开销。",
     weight: { introverted: 0, observant: -1, feeling: 1, prospecting: 3 },
   },
   jc: {
@@ -926,23 +849,21 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
     question:
-      "I'd rather take a peer's review nit than argue about it — the code is rarely the hill to die on.",
+      "比起争论，我更愿意接受同事审查中的吹毛求疵——代码很少值得为之死磕。",
     weight: { introverted: -1, observant: -1, feeling: 1, prospecting: 1 },
   },
   jv: {
     key: "jv",
     majorGroup: "personal-planning",
     minorGroup: "pick-dependency",
-    question:
-      "A dependency that hasn't had a release in a year worries me more than one that keeps shipping.",
+    question: "一个一年没发版的依赖让我比一直在发版的更担心。",
     weight: { introverted: 1, observant: 2, feeling: -1, prospecting: -1 },
   },
   k: {
     key: "k",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "I have a clear \"done\" definition in mind, and I don't ship until I've hit it.",
+    question: "我心中有一个清晰的「完成」定义，不达标我不发布。",
     weight: { introverted: 1, observant: 2, feeling: 0, prospecting: -3 },
   },
   kP: {
@@ -950,23 +871,21 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
     question:
-      "Harsh peer review comments are a gift — I'd rather get them now than in production.",
+      "尖锐的同事审查评论是一种馈赠——我宁愿现在收到，也不希望在生产环境中发现问题。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: 0 },
   },
   kt: {
     key: "kt",
     majorGroup: "personal-writing-code",
     minorGroup: "name-variables",
-    question:
-      "Names are always lossy compared to the code — I don't over-invest in them.",
+    question: "命名始终不如代码本身精确——我不会在上面过度投入。",
     weight: { introverted: 0, observant: -2, feeling: -2, prospecting: 2 },
   },
   l: {
     key: "l",
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
-    question:
-      "I push back hard on deadlines that seem arbitrary, even when it's awkward.",
+    question: "面对看似随意的截止日期，即使尴尬我也会强烈反对。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: 0 },
   },
   l2: {
@@ -974,38 +893,35 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "write-comments",
     question:
-      "Comments that explain a non-obvious invariant or assumption are essential — the code can't say it alone.",
+      "解释非显而易见的不变量或假设的注释是必不可少的——代码本身说不清楚。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: 0 },
   },
   lY: {
     key: "lY",
     majorGroup: "personal-writing-code",
     minorGroup: "name-variables",
-    question:
-      "If a variable's name needs a comment to explain it, the name is too short.",
+    question: "如果一个变量的名字需要注释来解释，说明名字太短了。",
     weight: { introverted: 1, observant: -1, feeling: 1, prospecting: -1 },
   },
   m: {
     key: "m",
     majorGroup: "team-emotional",
     minorGroup: "sit-report",
-    question:
-      "When a report is harsh, I have to be careful not to use authority to shut down the conversation.",
+    question: "当下属态度尖锐时，我要注意不用权威来终止对话。",
     weight: { introverted: 2, observant: -1, feeling: 1, prospecting: 0 },
   },
   mD: {
     key: "mD",
     majorGroup: "personal-firming-up",
     minorGroup: "design-testable",
-    question:
-      "I usually write the code first and figure out how to test it afterward.",
+    question: "我通常先写代码，再想怎么测试。",
     weight: { introverted: 0, observant: 1, feeling: 0, prospecting: 2 },
   },
   mN: {
     key: "mN",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question: "Reviewing a peer's code teaches me as much as writing my own.",
+    question: "审查同事的代码和自己写代码学到的一样多。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: 1 },
   },
   me: {
@@ -1013,47 +929,42 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "write-todos",
     question:
-      "If I can finish the edge case now, I'd rather do it than leave a TODO that might sit for months.",
+      "如果我现在能处理掉那个边界情况，我宁愿做了，也不留一个可能搁置数月的 TODO。",
     weight: { introverted: 0, observant: 0, feeling: 0, prospecting: -2 },
   },
   n: {
     key: "n",
     majorGroup: "team-code-review",
     minorGroup: "take-report",
-    question:
-      "When a direct report reviews my code, I take their feedback seriously — no defensiveness.",
+    question: "当下属审查我的代码时，我认真对待他们的反馈——不带防御心理。",
     weight: { introverted: -1, observant: 0, feeling: 2, prospecting: 0 },
   },
   nD: {
     key: "nD",
     majorGroup: "personal-firming-up",
     minorGroup: "design-testable",
-    question:
-      "Designing for testability can make the code worse when no one actually writes the tests.",
+    question: "如果没人真的写测试，为可测试性而设计反而可能让代码变差。",
     weight: { introverted: 0, observant: 1, feeling: 1, prospecting: 2 },
   },
   nk: {
     key: "nk",
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
-    question:
-      "I reread the code owner's change a second time before commenting — I want to be sure.",
+    question: "评论之前我会把代码负责人的改动再读一遍——我想确认无误。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -1 },
   },
   np: {
     key: "np",
     majorGroup: "personal-writing-code",
     minorGroup: "write-todos",
-    question:
-      "I reach for TODOs freely — most of them earn their keep eventually.",
+    question: "我随手就会写 TODO——大部分最终都能发挥价值。",
     weight: { introverted: -1, observant: -1, feeling: 0, prospecting: 2 },
   },
   o: {
     key: "o",
     majorGroup: "personal-firming-up",
     minorGroup: "explore-code",
-    question:
-      "I love wandering the codebase — there's always something useful I wasn't looking for.",
+    question: "我喜欢在代码库里闲逛——总能发现一些我没在找但很有用的东西。",
     weight: { introverted: 1, observant: -2, feeling: 0, prospecting: 3 },
   },
   oL: {
@@ -1061,7 +972,7 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
     question:
-      "I ship peer reviews quickly, even if that means missing things — blocking someone's work has a real cost.",
+      "我会快速完成同事的代码审查，即使可能漏掉一些——阻塞别人的工作有实际成本。",
     weight: { introverted: -2, observant: -1, feeling: 1, prospecting: 2 },
   },
   od: {
@@ -1069,7 +980,7 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
     question:
-      "When the PM's spec is underspecified, I make the call I think is right and flag it after.",
+      "当项目经理的需求描述不够详细时，我会按自己认为正确的方式决定，事后再标记。",
     weight: { introverted: 1, observant: -2, feeling: -2, prospecting: 3 },
   },
   p: {
@@ -1077,7 +988,7 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-peer",
     question:
-      "I think best out loud — a whiteboard session with a peer unblocks me faster than any deep-work hour.",
+      "我最擅长边说边想——和同事的白板讨论比任何深度工作时间都能更快解除障碍。",
     weight: { introverted: -3, observant: -1, feeling: 1, prospecting: 1 },
   },
   pF: {
@@ -1085,7 +996,7 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
     question:
-      "I tell peers when their review helped — review is lonely work without the signal.",
+      "我会告诉同事他们的审查对我有帮助——没有反馈信号的审查会让人觉得孤独。",
     weight: { introverted: -2, observant: -1, feeling: 2, prospecting: 0 },
   },
   pQ: {
@@ -1093,15 +1004,14 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-report",
     question:
-      "My reports know they can bring me half-baked ideas — I treat early thinking as a feature, not a flaw.",
+      "我的下属知道他们可以把不成熟的想法带给我——我把早期思考当作优点，而非缺点。",
     weight: { introverted: -2, observant: -2, feeling: 1, prospecting: 3 },
   },
   pR: {
     key: "pR",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "Knowing when to stop is harder for me than knowing what to do next.",
+    question: "知道何时停下来对我来说比知道下一步做什么更难。",
     weight: { introverted: 1, observant: -1, feeling: 1, prospecting: 0 },
   },
   q: {
@@ -1109,23 +1019,21 @@ export default {
     majorGroup: "personal-writing-code",
     minorGroup: "write-comments",
     question:
-      "Every public function deserves a short docstring, no matter how obvious it looks.",
+      "每个公开函数都值得一段简短的文档字符串，无论它看起来多么显而易见。",
     weight: { introverted: 1, observant: 2, feeling: 1, prospecting: -2 },
   },
   qG: {
     key: "qG",
     majorGroup: "personal-writing-code",
     minorGroup: "name-variables",
-    question:
-      "For a short-lived local variable, a one-letter name is often clearer than a long one.",
+    question: "对于生命周期短的局部变量，单字母命名往往比长名字更清晰。",
     weight: { introverted: 0, observant: 1, feeling: -3, prospecting: 0 },
   },
   qy: {
     key: "qy",
     majorGroup: "personal-firming-up",
     minorGroup: "design-testable",
-    question:
-      "I consciously shape my code so that it's easy to test, even before I write any tests.",
+    question: "即使在写任何测试之前，我就会有意识地让代码易于测试。",
     weight: { introverted: 1, observant: -1, feeling: -2, prospecting: -2 },
   },
   r: {
@@ -1133,39 +1041,35 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
     question:
-      "When the code owner reviews my code, I give their comments extra weight because of the context they hold.",
+      "当代码负责人审查我的代码时，我会给他们的评论更多权重，因为他们拥有更多上下文。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: -1 },
   },
   rG: {
     key: "rG",
     majorGroup: "personal-writing-code",
     minorGroup: "structure-code",
-    question:
-      "Before I write a feature, I usually know which files and modules it will live in.",
+    question: "写一个功能之前，我通常已经知道它会放在哪些文件和模块里。",
     weight: { introverted: 1, observant: 0, feeling: 0, prospecting: -2 },
   },
   rT: {
     key: "rT",
     majorGroup: "team-code-review",
     minorGroup: "take-peer",
-    question:
-      "I reread my own PR after a peer review, trying to see it through their eyes.",
+    question: "同事审查后我会重新阅读自己的 PR，试图用他们的视角来看。",
     weight: { introverted: 2, observant: 1, feeling: 1, prospecting: -1 },
   },
   rTD: {
     key: "rTD",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "I try to lead my peer reviews with what's working before pointing out what isn't.",
+    question: "同事代码审查时，我会先说哪些地方做得好，再指出不足。",
     weight: { introverted: 1, observant: -1, feeling: 1, prospecting: 0 },
   },
   rt: {
     key: "rt",
     majorGroup: "team-code-review",
     minorGroup: "review-report",
-    question:
-      "If a direct report has thought something through, I lean toward approving unless it's clearly wrong.",
+    question: "如果下属已经深思熟虑过，除非明显有误，我倾向于批准。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: 2 },
   },
   s: {
@@ -1173,55 +1077,49 @@ export default {
     majorGroup: "team-planning",
     minorGroup: "talk-owner",
     question:
-      "The code owner has context I don't, so I lean toward their preferences when we disagree.",
+      "代码负责人有我没有的上下文，所以意见不一致时我倾向于尊重他们的偏好。",
     weight: { introverted: -1, observant: 1, feeling: 1, prospecting: -1 },
   },
   sj: {
     key: "sj",
     majorGroup: "personal-planning",
     minorGroup: "read-docs",
-    question:
-      "I trust a library's public docs enough that I rarely dig into its source before using it.",
+    question: "我足够信任一个库的公开文档，以至于用之前很少去看它的源码。",
     weight: { introverted: 0, observant: 3, feeling: -1, prospecting: 0 },
   },
   t: {
     key: "t",
     majorGroup: "personal-firming-up",
     minorGroup: "handle-debt",
-    question:
-      "Some debt is strategic — I leave it in place when replacing it would be premature.",
+    question: "有些技术债是战略性的——当替换它为时过早时，我会保留它。",
     weight: { introverted: 1, observant: 1, feeling: -1, prospecting: 1 },
   },
   t2: {
     key: "t2",
     majorGroup: "team-planning",
     minorGroup: "talk-owner",
-    question:
-      "I ask the code owner for their preferred shape of the change before writing a line.",
+    question: "写第一行代码之前，我会问代码负责人他们期望这个改动是什么样的。",
     weight: { introverted: -1, observant: 2, feeling: 1, prospecting: -3 },
   },
   tY: {
     key: "tY",
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
-    question:
-      "A small security oversight is the kind of mistake I'd lose sleep over.",
+    question: "一个小的安全疏忽是那种让我失眠的错误。",
     weight: { introverted: 1, observant: 0, feeling: -1, prospecting: 0 },
   },
   tb: {
     key: "tb",
     majorGroup: "personal-writing-code",
     minorGroup: "scope-task",
-    question:
-      "A task grows as I learn about it — pretending the scope is fixed is self-deception.",
+    question: "随着我的了解加深，任务的范围也在扩大——假装范围固定是自欺欺人。",
     weight: { introverted: -1, observant: -2, feeling: 0, prospecting: 3 },
   },
   u: {
     key: "u",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "Nitpicks matter — a review that catches only the big issues misses half the point.",
+    question: "挑剔细节很重要——只抓大问题的审查错过了一半的价值。",
     weight: { introverted: -1, observant: 2, feeling: -1, prospecting: -1 },
   },
   uO: {
@@ -1229,7 +1127,7 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "review-owner",
     question:
-      "Reviewing the code owner is uncomfortable — I'd rather approve than risk getting it wrong.",
+      "审查代码负责人的代码让人不舒服——比起冒着搞错的风险，我更愿意直接批准。",
     weight: { introverted: 1, observant: 1, feeling: 2, prospecting: 1 },
   },
   v: {
@@ -1237,63 +1135,56 @@ export default {
     majorGroup: "team-emotional",
     minorGroup: "sit-owner",
     question:
-      "I tend to assume the code owner's harsh words reflect a real problem I should address.",
+      "我倾向于认为代码负责人的尖锐言辞反映了一个我应该解决的真实问题。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -1 },
   },
   vO: {
     key: "vO",
     majorGroup: "team-emotional",
     minorGroup: "sit-report",
-    question:
-      "A report's harsh moment doesn't bother me much — the power differential softens its sting.",
+    question: "下属的尖锐时刻对我影响不大——权力差异削弱了它的刺痛感。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: 1 },
   },
   vR: {
     key: "vR",
     majorGroup: "personal-writing-code",
     minorGroup: "polish-code",
-    question:
-      "I'll spend extra time getting the code to feel right, even when the reviewers wouldn't catch the difference.",
+    question: "我会花额外时间让代码感觉恰到好处，即使审查者不会注意到差别。",
     weight: { introverted: 1, observant: -1, feeling: 2, prospecting: -1 },
   },
   vc: {
     key: "vc",
     majorGroup: "personal-planning",
     minorGroup: "break-project",
-    question:
-      "I think about a new task as a shape in my head, not as a checklist of steps.",
+    question: "一个新任务在我脑中是一个形状，而不是一份步骤清单。",
     weight: { introverted: 0, observant: -2, feeling: 0, prospecting: 2 },
   },
   vd: {
     key: "vd",
     majorGroup: "team-planning",
     minorGroup: "talk-report",
-    question:
-      "I check in with my reports often — I'd rather over-communicate than let them feel lost.",
+    question: "我经常跟下属沟通——我宁愿过度沟通，也不想让他们感到迷茫。",
     weight: { introverted: -3, observant: 1, feeling: 3, prospecting: -1 },
   },
   vk: {
     key: "vk",
     majorGroup: "personal-planning",
     minorGroup: "pick-dependency",
-    question:
-      "When I pick between libraries, I lean on what's popular in the community over what looks best on paper.",
+    question: "在库之间做选择时，比起纸面上最好看的，我更看重社区中流行的。",
     weight: { introverted: -2, observant: 3, feeling: 1, prospecting: 1 },
   },
   vz: {
     key: "vz",
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
-    question:
-      "I double-check input handling any time user data crosses a trust boundary.",
+    question: "每当用户数据跨越信任边界时，我都会再检查一遍输入处理。",
     weight: { introverted: 1, observant: 1, feeling: -2, prospecting: -1 },
   },
   w: {
     key: "w",
     majorGroup: "personal-firming-up",
     minorGroup: "explore-code",
-    question:
-      "I'll spend extra time reading related code just to make sure my change fits the existing patterns.",
+    question: "我会花额外时间阅读相关代码，确保我的改动符合现有模式。",
     weight: { introverted: 1, observant: 0, feeling: 1, prospecting: -1 },
   },
   wU: {
@@ -1301,103 +1192,91 @@ export default {
     majorGroup: "team-code-review",
     minorGroup: "take-report",
     question:
-      "Direct reports often miss context I have, so I weigh their review comments against that gap.",
+      "下属经常缺少我拥有的上下文，所以我会考虑到这个差距来衡量他们的审查评论。",
     weight: { introverted: 1, observant: 1, feeling: -2, prospecting: 0 },
   },
   wX: {
     key: "wX",
     majorGroup: "team-code-review",
     minorGroup: "take-owner",
-    question:
-      "A code owner's comment sits with me longer than the same comment from a peer.",
+    question: "代码负责人的评论比同事的同样评论在我心中停留更久。",
     weight: { introverted: 2, observant: -1, feeling: 2, prospecting: 0 },
   },
   x: {
     key: "x",
     majorGroup: "team-emotional",
     minorGroup: "sit-report",
-    question:
-      "I can address harsh words from a direct report as a work issue, without letting it sit with me.",
+    question: "我能把下属的尖锐言辞当作工作问题来处理，不会让它一直萦绕心头。",
     weight: { introverted: -2, observant: 1, feeling: -2, prospecting: 0 },
   },
   xG: {
     key: "xG",
     majorGroup: "personal-firming-up",
     minorGroup: "think-security",
-    question:
-      "Security is mostly a specialist's concern — I rely on the framework and our infra to handle it.",
+    question: "安全主要是专家的事——我依赖框架和我们的基础设施来处理。",
     weight: { introverted: 0, observant: 2, feeling: -1, prospecting: 2 },
   },
   xX: {
     key: "xX",
     majorGroup: "team-emotional",
     minorGroup: "sit-peer",
-    question:
-      "When a peer says something harsh, I replay it in my head for a while afterward.",
+    question: "当同事说了刺耳的话，之后我会在脑中反复回放一阵。",
     weight: { introverted: 2, observant: -1, feeling: 3, prospecting: 0 },
   },
   xe: {
     key: "xe",
     majorGroup: "personal-firming-up",
     minorGroup: "design-testable",
-    question:
-      "Tests I write while designing catch bugs I wouldn't have spotted just by reading the code.",
+    question: "设计过程中写的测试能发现仅靠阅读代码发现不了的 bug。",
     weight: { introverted: 1, observant: 2, feeling: 0, prospecting: -2 },
   },
   y: {
     key: "y",
     majorGroup: "team-planning",
     minorGroup: "talk-pm",
-    question:
-      "Giving the PM a ranged estimate instead of a point estimate helps us both.",
+    question: "给项目经理一个范围估算而不是单点估算对双方都有帮助。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -1 },
   },
   yG: {
     key: "yG",
     majorGroup: "team-planning",
     minorGroup: "talk-report",
-    question:
-      "Part of my job with reports is helping them grow, not just getting tasks done.",
+    question: "带领下属的工作不只是完成任务，还包括帮助他们成长。",
     weight: { introverted: -2, observant: 0, feeling: 0, prospecting: 0 },
   },
   yh: {
     key: "yh",
     majorGroup: "personal-firming-up",
     minorGroup: "handle-debt",
-    question:
-      "Ignoring tech debt feels like ignoring a slow leak — eventually it ruins the whole room.",
+    question: "忽视技术债就像忽视慢漏水——最终它会毁掉整个房间。",
     weight: { introverted: 1, observant: -1, feeling: 1, prospecting: -1 },
   },
   z: {
     key: "z",
     majorGroup: "personal-firming-up",
     minorGroup: "stop-task",
-    question:
-      "Once the code meets the requirement, I move on — further polish is usually invisible.",
+    question: "一旦代码满足需求，我就继续往前走——进一步打磨通常看不出来。",
     weight: { introverted: 0, observant: 1, feeling: -1, prospecting: 2 },
   },
   zW: {
     key: "zW",
     majorGroup: "team-code-review",
     minorGroup: "review-report",
-    question:
-      "I try to let a direct report's style choices stand, even when they're not what I'd do.",
+    question: "我会尽量保留下属的代码风格选择，即使那不是我会用的方式。",
     weight: { introverted: -1, observant: -1, feeling: 1, prospecting: 1 },
   },
   zg: {
     key: "zg",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "I take my time on peer reviews — a rushed review is worse than no review.",
+    question: "我会花时间认真做同事代码审查——匆忙的审查还不如不审。",
     weight: { introverted: 1, observant: 1, feeling: 1, prospecting: -2 },
   },
   zw: {
     key: "zw",
     majorGroup: "team-code-review",
     minorGroup: "review-peer",
-    question:
-      "I write my review comments as questions, not demands, unless I'm certain.",
+    question: "除非我很确定，否则我的审查评论都写成问题的形式，而不是要求。",
     weight: { introverted: 1, observant: 0, feeling: 2, prospecting: 0 },
   },
 } satisfies { [key: string]: Question }
